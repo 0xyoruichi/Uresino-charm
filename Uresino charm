@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T03:15:14.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="s46mT-2Nrl5Lj8Lw3qDB" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T04:10:24.995Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HhAkl5dM4CYZiA-f30g-" version="15.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,9 +119,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HzdHbWjdnwijtNLS3ZbL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HzdHbWjdnwijtNLS3ZbL-0" target="HzdHbWjdnwijtNLS3ZbL-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="-410" />
+              <mxPoint x="260" y="-410" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="HzdHbWjdnwijtNLS3ZbL-0" value="メタマスクとコネクト&lt;br&gt;状態判定" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="HzdHbWjdnwijtNLS3ZbL-0" value="メタマスクと連携" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="-440" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HzdHbWjdnwijtNLS3ZbL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HzdHbWjdnwijtNLS3ZbL-1" target="HzdHbWjdnwijtNLS3ZbL-3" edge="1">
@@ -173,6 +178,27 @@
         </mxCell>
         <mxCell id="dHbHIugi9TOPFJ3XhQYx-3" value="拡大で情報表示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1241" y="-440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHbHIugi9TOPFJ3XhQYx-7" value="メタマスクとの連携確認&lt;br&gt;if no →連携を促す" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="-320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHbHIugi9TOPFJ3XhQYx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dHbHIugi9TOPFJ3XhQYx-8" target="dHbHIugi9TOPFJ3XhQYx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHbHIugi9TOPFJ3XhQYx-8" value="・NFTの残り枚数を最新情報から取得して表示&lt;br&gt;・説明文はあらかじめフロント側で持っておく" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="-320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHbHIugi9TOPFJ3XhQYx-9" value="・一度コントラクトで受取&lt;br&gt;・管理者を設定して送金&lt;br&gt;・代金支払いデータを保存or格納" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="-320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHbHIugi9TOPFJ3XhQYx-10" value="下記要素をキーにして抽選&lt;br&gt;引いた時間&lt;br&gt;コントラクトアドレス" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="-320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHbHIugi9TOPFJ3XhQYx-11" value="NFTを送付&lt;br&gt;所持者を変更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="-320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHbHIugi9TOPFJ3XhQYx-12" value="管理者ページはコードを作成&lt;br&gt;所持者はターミナルベース" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="-180" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
