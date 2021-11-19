@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T03:06:41.823Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="oTFDRrI3H3eEQK4dSwj8" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T03:15:14.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="s46mT-2Nrl5Lj8Lw3qDB" version="15.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="HzdHbWjdnwijtNLS3ZbL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HzdHbWjdnwijtNLS3ZbL-3" target="HzdHbWjdnwijtNLS3ZbL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzdHbWjdnwijtNLS3ZbL-3" value="ガチャ代金払う" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="HzdHbWjdnwijtNLS3ZbL-3" value="ガチャ代金払う&lt;br&gt;・イーサ？マティック" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="520" y="-440" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HzdHbWjdnwijtNLS3ZbL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dHbHIugi9TOPFJ3XhQYx-0" target="HzdHbWjdnwijtNLS3ZbL-7" edge="1">
@@ -146,7 +146,12 @@
           <mxGeometry x="760" y="-440" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HzdHbWjdnwijtNLS3ZbL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HzdHbWjdnwijtNLS3ZbL-7" target="HzdHbWjdnwijtNLS3ZbL-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="-330" />
+              <mxPoint x="1560" y="-330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HzdHbWjdnwijtNLS3ZbL-7" value="もう一回引く" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1480" y="-440" width="160" height="60" as="geometry" />
